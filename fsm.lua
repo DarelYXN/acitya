@@ -10,14 +10,14 @@ local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 local Tab1 = Window:CreateTab("Farming")
 local Tab2 = Window:CreateTab("Chest")
 local Tab3 = Window:CreateTab("Boat")
-local Tab4 = Window:CreateTab("Boat")
-local Tab5 = Window:CreateTab("Boat")
+local Tab4 = Window:CreateTab("Misc")
+local Tab5 = Window:CreateTab("Teleport")
 
 local Section1 = Tab1:CreateSection("")
 local Section2 = Tab2:CreateSection("")
 local Section3 = Tab3:CreateSection("")
-local Section4 = Tab2:CreateSection("")
-local Section5 = Tab3:CreateSection("")
+local Section4 = Tab4:CreateSection("")
+local Section5 = Tab5:CreateSection("")
 
 local RunService = game:GetService("RunService")
 local player = game.Players.LocalPlayer
